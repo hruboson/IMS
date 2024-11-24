@@ -7,6 +7,7 @@ INCDIR = ./src
 
 # Compiler flags
 CFLAGS = -Wall -Wextra -pedantic
+LIBS = -lsimlib -lm
 
 # Source files
 SRCS := $(filter-out $(SRCDIR)/main.cpp, $(wildcard $(SRCDIR)/*.cpp))
@@ -36,3 +37,5 @@ clean:
 run:
 	./$(TARGET)
 
+# upload:
+# scp -r ./src/ xhrubo01@merlin.fit.vut.cz:/homes/eva/xh/xhrubo01/IMS/
