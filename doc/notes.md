@@ -125,6 +125,10 @@ pozn. světlo ovlivňuje škůdce [^4]
 - cena vody se pohybuje okolo 12 haléřů za litr [^28]
 - cena kWh se pohybuje okolo 3 korun [^29]
 
+# Petriho síť
+
+![Schéma petriho sítě](petri-net.drawio.png)
+
 <!-- Resources -->
 [^1]: *Kaiser, E. et al. (2024) Vertical farming goes dynamic: Optimizing resource use efficiency, product quality, and energy costs, Frontiers.* Available at: https://www.frontiersin.org/journals/science/articles/10.3389/fsci.2024.1411259/full (Accessed: 25 November 2024).
 [^2]: *Stephen Albert. Lettuce growing problems and solutions.* https://harvesttotable.com/lettuce_growing_problems_troub/
