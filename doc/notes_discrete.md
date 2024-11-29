@@ -59,16 +59,20 @@ Provoz vertikální farmy zahrnuje celou řadu činností, které zajišťují e
     - semínka se sadí do plátů, pokud není plát osazený celý, nepostupuje do další fáze (růst)[^12]
 - sazenice vyklíčí za 4-8 dní[^8] normální rozložení se střední hodnotou 6 a směrodatnou odchylkou 1.33
     - pokud na plátu zbývá pouze pár nevyklíčených semínek, jsou přesunuty na pláty kde je místo
-    - pro ušetření místa pracovníci přeskládávají sazenice tak, aby mohli co nejdříve odebrat prázdný plát
+    - pro ušetření místa pracovníci přeskládávají sazenice tak, aby mohli co nejdříve odebrat prázdný plát (děje se implicitně při přesazování a sázení)
 - po vyklíčení je přesunuta do vertikální věže - stejný princip květináčů jako plátů
 
-- pracovník každý den seřizuje 
+- pokud má pracovník volno, zkontroluje každé dvě hodiny ovládací panel a ukazatele na něm, v případě potřeby seřídí nastavení vertikální farmy (průtok vody, vlhkost, teplotu atd...)
+- pracovníci pracují každý den od 7:00 do 15:00
+    - vždy než odejdou domů, dokončí svou práci
 
 - rostlina zraje 25-35 dní[^7] normální rozložení se střední hodnotou 30 a směrodatnou odchylkou 3.33
 - rostlina za dobu svého růstu spotřebuje 2 litry vody a 5 kWh elektřiny, pokud tyto zdroje nemá rostlina nedorůstá požadované velikosti nebo uvadá
 - zralý salát se prodá průměrně za 30 Kč za hlávku
 - cena vody se pohybuje okolo 12 haléřů za litr [^28]
 - cena kWh se pohybuje okolo 3 korun [^29]
+
+### Zdroje na farmě
 
 - ve farmě se vyskytují 
     - 4 pracovníci (parametr)
@@ -82,15 +86,8 @@ Provoz vertikální farmy zahrnuje celou řadu činností, které zajišťují e
     - 1 balicí plocha (parametr)
         - zde se očištěný salát připravuje do sáčků
 
-
-
-
-
-
-
-
-
-
+## Petriho síť
+![Schéma petriho sítě](petri-net.drawio.png)
 
 
 <!-- Resources -->
