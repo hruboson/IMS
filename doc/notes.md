@@ -121,7 +121,7 @@ pozn. světlo ovlivňuje škůdce [^4]
     - pro ušetření místa pracovníci přeskládávají sazenice tak, aby mohli co nejdříve odebrat prázdný plát
 - po vyklíčení je přesunuta do vertikální věže - stejný princip květináčů jako plátů
 
-- rostlina zraje 25-35 dní[^7] normální rozložení se střední hodnotou 30 a směrodatnou odchylkou 3.33
+- rostlina zraje 21-27 dní[^7] normální rozložení se střední hodnotou 24 a směrodatnou odchylkou 3.33
 - rostlina za dobu svého růstu spotřebuje 2 litry vody a 5 kWh elektřiny, pokud tyto zdroje nemá rostlina nedorůstá požadované velikosti nebo uvadá
 - zralý salát se prodá průměrně za 30 Kč za hlávku
 - cena vody se pohybuje okolo 12 haléřů za litr [^28]
