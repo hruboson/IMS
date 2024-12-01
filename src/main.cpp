@@ -13,7 +13,7 @@
 
 #define X 40 // number of planting plates
 #define Y 30 // planting plate capacity
-#define I 200 // number of flowerpots
+#define I 300 // number of flowerpots
 #define J 30 // flowerpot capacity
 
 #define SHIFT_T 8*60 // one shift length (working time)
@@ -26,12 +26,12 @@
 // Facts																	//
 //--------------------------------------------------------------------------//
 
-#define S_T Y/3 // time to plant seeds in one planting plate TODO change
-#define RP_T J/3 // time to replant plants to one flowerpot TODO change
+#define S_T Uniform((Y/3)-3, (Y/3)+3) // time to plant seeds in one planting plate TODO change
+#define RP_T Uniform((J/3)-5, (J/3)+5) // time to replant plants to one flowerpot TODO change
 
 #define OUT_T (24*60)-SHIFT_T // rest of the day
 
-#define CONTROL_CHECK_T 4*60 // control panel timer
+#define CONTROL_CHECK_T 3*60 // control panel timer
 #define CONTROL_T 5 // time to check and set control panel
 #define PACKING_T 0.25 // time to pack one unit (~15 seconds)
 
@@ -148,10 +148,10 @@ class Worker : public Process {
 	void Behavior(){
 		again:
 
-		// from most prioritized: shift ended -> replanting seeds -> packaging/harvesting grown plant -> checking control panel -> planting seeds
+		// from most prioritized: shift ended -> packaging/harvesting grown plant -> replanting seeds  -> checking control panel -> planting seeds
 		if(!shift_end){
-			if(!replanting()){
-				if(!packaging()){
+			if(!packaging()){
+				if(!replanting()){
 					if(!controlPanel()){
 						if(!seeding()){
 						}
