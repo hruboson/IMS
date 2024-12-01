@@ -38,4 +38,6 @@ run:
 	./$(TARGET)
 
 # upload:
-# scp -r ./src/ xhrubo01@merlin.fit.vut.cz:/homes/eva/xh/xhrubo01/IMS/
+# scp -r ./src/ xhrubo01@eva.fit.vut.cz:/homes/eva/xh/xhrubo01/IMS/
+# download:
+# scp xhrubo01@eva.fit.vut.cz:/homes/eva/xh/xhrubo01/IMS/sim.dat ./
