@@ -7,9 +7,9 @@
 //--------------------------------------------------------------------------//
 
 #define S 100000 // number of seeds (initial)
-#define W 3 // number of workers
+#define W 2 // number of workers
 #define P 2 // number of working stations
-#define B 2 // number of packaging stations
+#define B 1 // number of packaging stations
 
 #define X 40 // number of planting plates
 #define Y 30 // planting plate capacity
@@ -312,6 +312,7 @@ int main(){
 	seedingTime.Output();
 	replantingTime.Output();
 	harvestTime.Output();
+	harvestedInTime.Output();
 
     return EXIT_SUCCESS;
 }
