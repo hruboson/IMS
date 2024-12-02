@@ -26,8 +26,8 @@
 // Facts																	//
 //--------------------------------------------------------------------------//
 
-#define S_T Uniform((Y/3)-3, (Y/3)+3) // time to plant seeds in one planting plate TODO change
-#define RP_T Uniform((J/3)-5, (J/3)+5) // time to replant plants to one flowerpot TODO change
+#define S_T Uniform((Y/3)-3, (Y/3)+3) // time to plant seeds in one planting plate
+#define RP_T Uniform((J/3)-5, (J/3)+5) // time to replant plants to one flowerpot
 
 #define OUT_T (24*60)-SHIFT_T // rest of the day
 
